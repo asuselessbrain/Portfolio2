@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- navigation bar -->
+        <nav class="container mx-auto">
+
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about-me">About</a></li>
+                            <li><a href="#services">services</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-3xl">Arfan Ahmed</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-orange-600 text-white hover:bg-orange-500">Hire Me</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+
+        <section id="home">
+            <div
+                class="hero min-h-screen bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('./images/banner-bg3.jpg')]">
+                <div class="hero-content flex-col-reverse lg:flex-row-reverse justify-around">
+                    <img src="./images/profile_pic.png" class="rounded-lg shadow-2xl" />
+                    <div>
+                        <p class="mb-16 text-orange-200 text-3xl">Hello, my name is</p>
+                        <h1 class="text-7xl font-extrabold text-[#000000]">Arfan Ahmed</h1>
+                        <p class="py-6 text-[#ffdbdb] text-5xl font-bold">Web Developer</p>
+
+                        <p class="py-6 text-gray-100 text-2xl">"Welcome to my digital domain! 🌐 As a web developer, I'm
+                            thrilled to have you here. Explore my portfolio to discover a world where code meets
+                            creativity, where every pixel is carefully crafted to deliver seamless experiences. Thank
+                            you for joining me on this journey of innovation and exploration!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- About me section -->
+        <section class="container mx-auto my-28 px-4 md:px-0" id="about-me">
+            <p class="text-2xl text-blue-600 font-medium mb-8">About me</p>
+
+            <h2 class="font-extrabold text-5xl">I am an enthusiastic web developer based in New York, with a rich
+                experience of over 1 years in website & product design. </h2>
+
+            <div class="md:flex mt-16">
+                <h4 class="text-3xl font-semibold text-blue-500 text-center flex-1">I design professional &<br>
+                    beautiful websites </h4>
+
+                <div class="flex-1">
+                    <p>With years of experience in graphic and web design I have mastered the skills of understanding
+                        client
+                        requirements according to the latest trends. I have worked with businesses from different niches
+                        so
+                        you can rely on me for yours. </p>
+
+                    <p class="text-gray-500 mt-4 mb-8">I’ve spent most of these years working across different areas of
+                        design like front-end development,
+                        landing pages, email design, app UI/UX, to my current role designing products for mobile
+                        platforms.
+                        Having worked on various projects that are already live, I can help you with the best possible
+                        suggestions and ideas that we can proceed with. With me, you aren’t forced to accept anything. I
+                        give you a variety of options we can work on together.
+                    </p>
+
+                    <a href="#" class="text-blue-500">READ MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+
+        <section id="services" class="container mx-auto px-4 md:px-0">
+            <h2 class="text-5xl font-extrabold">What I do</h2>
+
+            <p class="mt-8 mb-20 text-gray-500 ">From understanding your requirements, designing a blueprint and
+                delivering the final<br> product, I do everything that falls in between these lines. </p>
+
+            <div class="md:flex gap-4">
+                <div>
+                    <h4 class="font-medium text-xl">UI/UX Design </h4>
+
+                    <p class="text-gray-500 mt-4 mb-8 p-3 md:p-10">An effective UI/UX is what captures attention and
+                        spreads a clear message. I make sure the design is innovative and neat with all of this. </p>
+                </div>
+
+                <div>
+                    <div class="flex gap-4 items-center">
+                        <img class="w-8" src="./images/web.svg" alt="">
+                        <h4 class="font-medium text-xl">Web Development</h4>
+                    </div>
+
+                    <p class="text-gray-500 mt-4 mb-8 p-3 md:p-10">If you are looking for a developer who’ll take over
+                        the research and development of your website, I am a well-established professional to help you
+                        with this.</p>
+                </div>
+
+                <div>
+                    <div class="flex gap-4 items-center">
+                        <img class="w-8" src="./images/app.svg" alt="">
+                        <h4 class="font-medium text-xl">App Development</h4>
+                    </div>
+
+                    <p class="text-gray-500 mt-4 mb-8 p-3 md:p-10">If you are looking for a user-friendly app that will
+                        attract more mobile users, I can help you design and build a platform with the latest and
+                        trendiest look and feel.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section -->
+
+        <section id="skills" class="container mx-auto mt-28 md:flex gap-10">
+            <div class="flex-1 py-8 px-4 sm:px-6 lg:px-8 ">
+                <h2 class="text-5xl font-extrabold">Skills</h2>
+
+
+                <p class="mt-16">JavaScript</p>
+                <progress class="progress progress-primary block h-6" value="90" max="100"></progress>
+
+                <p class="mt-8">PHP</p>
+                <progress class="progress progress-primary block h-6" value="80" max="100"></progress>
+
+                <p class="mt-8">Python</p>
+                <progress class="progress progress-primary block h-6" value="85" max="100"></progress>
+
+                <p class="mt-8">Photoshop</p>
+                <progress class="progress progress-primary block h-6" value="70" max="100"></progress>
+
+                <p class="mt-8">CSS</p>
+                <progress class="progress progress-primary block h-6" value="95" max="100"></progress>
+
+                <p class="mt-8">HTML</p>
+                <progress class="progress progress-primary block h-6" value="100" max="100"></progress>
+            </div>
+
+            <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8 flex-1">
+                <h2 class="text-5xl font-extrabold mb-8">My Experiences</h2>
+
+                <!-- Experience 1 -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold mb-2">Dynamic Capital INC</h3>
+                    <p class="text-2xl font-bold mb-2 text-blue-500">Web Developer</p>
+                    <p class="text-gray-500 mb-2">January 2015 - Present</p>
+                    <p class="text-gray-700">I was responsible for all the in-house and client-based web development
+                        assignments. I take pride in having helped the best of clients and getting maximum ratings for
+                        the company. </p>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold mb-2">ACME Company</h3>
+                    <p class="text-2xl font-bold mb-2 text-blue-500">Lead UI/UX Designer</p>
+                    <p class="text-gray-500 mb-2">January 2011 - 2015</p>
+                    <p class="text-gray-700">I have responsibly led a team of 12 designers to help, supervise and
+                        approve their designs to make sure it matches client expectations and latest design standards.
+                    </p>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold mb-2">Dynamic Capital INC</h3>
+                    <p class="text-2xl font-bold mb-2 text-blue-500">UI/UX Designer</p>
+                    <p class="text-gray-500 mb-2">January 2003 - 2011</p>
+                    <p class="text-gray-700">I was a part of an amazing design team and worked together with them to
+                        help design and develop apps and websites for different clients of the company. </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- projects section -->
+
+        <section id="projects" class="py-12">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-10 text-center">My Projects</h2>
+
+                <!-- Project Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Project 1 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="./images/phone hunting.png" alt="Project 1"
+                            class="w-full h-48 object-cover object-center">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2">Phone hunting using Api</h3>
+                            <p class="text-gray-600 mb-4">"Embark on a seamless phone hunting journey with the power of
+                                APIs. Effortlessly retrieve and analyze vast data sets, empowering users to find the
+                                perfect phone match. Streamline searches, compare specifications, and access real-time
+                                information for an informed decision-making experience that redefines the way we shop
+                                for mobile devices."</p>
+                            <a href="https://asuselessbrain.github.io/Phone-Hunting-using-API/"
+                                class="text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="./images/legal solution.png" alt="Project 2"
+                            class="w-full h-48 object-cover object-center">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2">Legal Solution</h3>
+                            <p class="text-gray-600 mb-4">Legal solutions provide resolutions to disputes or issues
+                                within the framework of the law. Utilizing statutes, regulations, and precedents, legal
+                                professionals analyze cases, negotiate settlements, or advocate in court to achieve just
+                                outcomes. These solutions ensure compliance with legal principles while addressing the
+                                needs and rights of all parties involved.</p>
+                            <a href="https://asuselessbrain.github.io/Legal-Solution/"
+                                class="text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="./images/bikerzone.png" alt="Project 2"
+                            class="w-full h-48 object-cover object-center">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2">Biker Zone</h3>
+                            <p class="text-gray-600 mb-4">
+                                "Biker Zone: Riding Culture Hub" is a community-focused project creating a dynamic space
+                                for motorcycle enthusiasts. Through events, workshops, and a comprehensive range of
+                                gear, it fosters camaraderie and promotes safe riding practices. With a diverse array of
+                                bikes and expert advice, Biker Zone is the ultimate destination for all things
+                                motorcycle.</p>
+                            <a href="https://asuselessbrain.github.io/Biker-Zone-Website/"
+                                class="text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="./images/hockeyclub.png" alt="Project 2"
+                            class="w-full h-48 object-cover object-center">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2">Hockey Club</h3>
+                            <p class="text-gray-600 mb-4">
+                                "GoalBound: Your Ultimate Hockey Hub" is a dynamic project dedicated to hockey enthusiasts. Our website offers the latest team news, player profiles, and game schedules. Engage with fellow fans, access exclusive content, and support your favorite team. With GoalBound, experience the thrill of hockey from anywhere, anytime.</p>
+                            <a href="https://asuselessbrain.github.io/Hockey-Club-Website/"
+                                class="text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="./images/penguinfasjion.png" alt="Project 2"
+                            class="w-full h-48 object-cover object-center">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2">Penguin Fashion Website</h3>
+                            <p class="text-gray-600 mb-4">
+
+                                "IceChic: Where Penguins Strut Their Style" is a unique project celebrating Antarctic
+                                fashion. Our website showcases an exclusive collection of sleek and stylish attire for
+                                penguins of all ages. With expertly curated designs, helpful size guides, and fast
+                                shipping, IceChic is the go-to destination for the trendiest penguins on the ice.</p>
+                            <a href="https://asuselessbrain.github.io/Penguin-Fashion/"
+                                class="text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <img src="./images/travelwesite.png" alt="Project 2"
+                            class="w-full h-48 object-cover object-center">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-2">Travel Website</h3>
+                            <p class="text-gray-600 mb-4">
+                                "JourneyWise: Explore the World Online" is an innovative project revolutionizing travel
+                                planning. Our website offers comprehensive destination guides, curated itineraries, and
+                                booking services, empowering travelers to craft unforgettable adventures. With
+                                user-friendly navigation and expert recommendations, JourneyWise is your trusted
+                                companion for seamless and enriching travel experiences.</p>
+                            <a href="https://asuselessbrain.github.io/My-First-Travel-Website2/"
+                                class="text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact us section -->
+        <section id="contact">
+            <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold mb- 10 mt-10 text-center">Contact Me</h2>
+
+                <!-- Contact Form -->
+                <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <h3 class="text-xl font-bold mb-4">Send me a message</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                                Your Name
+                            </label>
+                            <input
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="name" type="text" placeholder="Your Name">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                                Your Email
+                            </label>
+                            <input
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="email" type="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                                Your Message
+                            </label>
+                            <textarea
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                type="button">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="bg-white shadow-md rounded px-8 pt-6 pb-8">
+                    <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+                    <p class="mb-2"><span class="font-bold">Email:</span> ahmedshohagarafan@gmail.com</p>
+                    <p class="mb-2"><span class="font-bold">Phone:</span> 01762915295</p>
+                    <p class="mb-2"><span class="font-bold">Address:</span> Shahzadpur, Sirajganj</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
+    <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+        <aside class="items-center grid-flow-col">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                clip-rule="evenodd" class="fill-current">
+                <path
+                    d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
+                </path>
+            </svg>
+            <p>ACME Industries Ltd. <br>Providing reliable tech since 1992</p>
+        </aside>
+        <nav class="md:place-self-center md:justify-self-end">
+            <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg></a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
